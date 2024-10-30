@@ -1,26 +1,23 @@
 import React from 'react';
-import './Navbar.css'
 
-export const Navbar = () => {
+
+export const Header = () => {
   return (
     <header>
-      <nav className="navbar">
-        <ul className="navbar-list">
-          <li className="navbar-item">
-            <a href="/">Home</a>
-          </li>
-          <li className="navbar-item">
-            <a href="/about-me">About Me</a>
-          </li>
-          <li className="navbar-item">
-            <a href="/contact-me">Contact Me</a>
-          </li>
-          <li className="navbar-item">
-            <a href="/other-routes">Other Routes</a>
-          </li>
+    <div className="profile">
+       
+        <h1>Jobany Giraldo</h1>
+        <p>Desarrollador Web | Desarrollador Backend</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
-      </nav>
-    </header>
+    </nav>
+</header>
   )
 }
 
