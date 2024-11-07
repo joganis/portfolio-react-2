@@ -1,5 +1,6 @@
 import React from 'react'
 import img3 from '../../../assets/yoojee.png';
+
 export const AboutMe = () => {
   return (
     <section id="about">
